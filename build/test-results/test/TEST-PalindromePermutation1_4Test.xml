@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PalindromePermutation1_4Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-24T19:10:21" hostname="DESKTOP-2BVBP2T" time="0.025">
+  <properties/>
+  <testcase name="test_palindromePermutation1_4_2()" classname="PalindromePermutation1_4Test" time="0.025"/>
+  <system-out><![CDATA[hashmap: {a=2, b=1}
+hashmap: {a=2, b=2}
+hashmap: {t=2, a=2, c=2, o=1}
+hashmap: {t=2, a=2, c=2, o=1}
+hashmap: {a=2, b=2, c=2}
+hashmap: {e=2, x=1, a=1, m=1, p=1, l=1}
+hashmap: {t=2, a=1, c=2, o=1, d=1}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

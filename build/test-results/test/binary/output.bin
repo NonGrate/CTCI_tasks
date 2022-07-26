@@ -1,0 +1,7 @@
+hashmap: {a=2, b=1}
+hashmap: {a=2, b=2}
+hashmap: {t=2, a=2, c=2, o=1}
+hashmap: {t=2, a=2, c=2, o=1}
+hashmap: {a=2, b=2, c=2}
+)hashmap: {e=2, x=1, a=1, m=1, p=1, l=1}
+$hashmap: {t=2, a=1, c=2, o=1, d=1}
