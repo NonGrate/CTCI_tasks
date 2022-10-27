@@ -1,7 +1,7 @@
-package arrays
+package q1_arrays
 
-class ZeroMatrix1_8 {
-    fun zeroMatrix1_8_1_(input: Array<Array<String>>): Array<Array<String>> {
+class q1_8_ZeroMatrix {
+    fun q1_8_zeroMatrix(input: Array<Array<String>>): Array<Array<String>> {
         println("Input array:")
         printArray(input)
 

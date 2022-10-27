@@ -1,9 +1,9 @@
-package arrays
+package q1_arrays
 
 import java.lang.StringBuilder
 
-class StringCompression1_6 {
-    fun stringCompression1_6_1_(input: String): String {
+class q1_6_StringCompression {
+    fun q1_6_stringCompression(input: String): String {
         if (input.isEmpty()) {
             return ""
         }

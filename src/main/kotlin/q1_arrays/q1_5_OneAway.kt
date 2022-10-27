@@ -1,9 +1,9 @@
-package arrays
+package q1_arrays
 
 import kotlin.math.abs
 
-class OneAway1_5 {
-    fun one_away1_5_1_(input1: String, input2: String): Boolean {
+class q1_5_OneAway {
+    fun q1_5_oneAway(input1: String, input2: String): Boolean {
         if (abs(input1.length - input2.length) > 1) return false
 
         if (input1.length == input2.length) {

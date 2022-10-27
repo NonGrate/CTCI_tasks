@@ -1,13 +1,15 @@
-import arrays.RotateMatrix1_7
+package q1_arrays
+
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
+import q1_arrays.q1_7_RotateMatrix
 
-class RotateMatrix1_7Test {
+class q1_7_RotateMatrixTest {
 
-    private val rotateMatrix17 = RotateMatrix1_7()
+    private val q1_7_rotateMatrix = q1_7_RotateMatrix()
 
     @Test
-    fun test_rotateMatrix1_7_1_clockwise() {
+    fun q1_7_test_rotateMatrix_1_clockwise() {
         Assertions.assertArrayEquals(
             arrayOf(
                 arrayOf("u", "p", "k", "f", "a"),
@@ -16,7 +18,7 @@ class RotateMatrix1_7Test {
                 arrayOf("x", "s", "n", "i", "d"),
                 arrayOf("y", "t", "o", "j", "e"),
             ),
-            rotateMatrix17.rotateMatrix1_7_1_clockwise(
+            q1_7_rotateMatrix.q1_7_rotateMatrix_1_clockwise(
                 arrayOf(
                     arrayOf("a", "b", "c", "d", "e"),
                     arrayOf("f", "g", "h", "i", "j"),
@@ -33,7 +35,7 @@ class RotateMatrix1_7Test {
                 arrayOf("o", "k", "g", "c"),
                 arrayOf("p", "l", "h", "d"),
             ),
-            rotateMatrix17.rotateMatrix1_7_1_clockwise(
+            q1_7_rotateMatrix.q1_7_rotateMatrix_1_clockwise(
                 arrayOf(
                     arrayOf("a", "b", "c", "d"),
                     arrayOf("e", "f", "g", "h"),
@@ -45,7 +47,7 @@ class RotateMatrix1_7Test {
     }
 
     @Test
-    fun test_rotateMatrix1_7_1_counterclockwise() {
+    fun q1_7_test_rotateMatrix_2_counterclockwise() {
         Assertions.assertArrayEquals(
             arrayOf(
                 arrayOf("e", "j", "o", "t", "y"),
@@ -54,7 +56,7 @@ class RotateMatrix1_7Test {
                 arrayOf("b", "g", "l", "q", "v"),
                 arrayOf("a", "f", "k", "p", "u"),
             ),
-            rotateMatrix17.rotateMatrix1_7_1_counterclockwise(
+            q1_7_rotateMatrix.q1_7_rotateMatrix_2_counterclockwise(
                 arrayOf(
                     arrayOf("a", "b", "c", "d", "e"),
                     arrayOf("f", "g", "h", "i", "j"),
@@ -71,7 +73,7 @@ class RotateMatrix1_7Test {
                 arrayOf("b", "f", "j", "n"),
                 arrayOf("a", "e", "i", "m"),
             ),
-            rotateMatrix17.rotateMatrix1_7_1_counterclockwise(
+            q1_7_rotateMatrix.q1_7_rotateMatrix_2_counterclockwise(
                 arrayOf(
                     arrayOf("a", "b", "c", "d"),
                     arrayOf("e", "f", "g", "h"),

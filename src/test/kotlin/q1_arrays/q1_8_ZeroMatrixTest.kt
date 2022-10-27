@@ -1,13 +1,15 @@
-import arrays.ZeroMatrix1_8
+package q1_arrays
+
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
+import q1_arrays.q1_8_ZeroMatrix
 
-class ZeroMatrix1_8Test {
+class q1_8_ZeroMatrixTest {
 
-    private val zeroMatrix18 = ZeroMatrix1_8()
+    private val q1_8_zeroMatrix = q1_8_ZeroMatrix()
 
     @Test
-    fun test_zeroMatrix1_8_1_() {
+    fun q1_8_test_zeroMatrix() {
         Assertions.assertArrayEquals(
             arrayOf(
                 arrayOf("0", "0", "0", "0", "0"),
@@ -16,7 +18,7 @@ class ZeroMatrix1_8Test {
                 arrayOf("0", "q", "0", "s", "t"),
                 arrayOf("0", "v", "0", "x", "y"),
             ),
-            zeroMatrix18.zeroMatrix1_8_1_(
+            q1_8_zeroMatrix.q1_8_zeroMatrix(
                 arrayOf(
                     arrayOf("0", "b", "c", "d", "e"),
                     arrayOf("f", "g", "h", "i", "j"),
@@ -33,7 +35,7 @@ class ZeroMatrix1_8Test {
                 arrayOf("i", "0", "k", "l"),
                 arrayOf("0", "0", "0", "0"),
             ),
-            zeroMatrix18.zeroMatrix1_8_1_(
+            q1_8_zeroMatrix.q1_8_zeroMatrix(
                 arrayOf(
                     arrayOf("a", "b", "c", "d"),
                     arrayOf("e", "f", "g", "h"),
@@ -49,7 +51,7 @@ class ZeroMatrix1_8Test {
                 arrayOf("i", "j", "k", "l"),
                 arrayOf("m", "n", "o", "p"),
             ),
-            zeroMatrix18.zeroMatrix1_8_1_(
+            q1_8_zeroMatrix.q1_8_zeroMatrix(
                 arrayOf(
                     arrayOf("a", "b", "c", "d"),
                     arrayOf("e", "f", "g", "h"),

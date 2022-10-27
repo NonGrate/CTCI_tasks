@@ -1,7 +1,7 @@
-package arrays
+package q1_arrays
 
-class CheckPermutation1_2 {
-    fun checkPermutation1_2_1_sort(input1: String, input2: String): Boolean {
+class q1_2_CheckPermutation {
+    fun q1_2_checkPermutation_1_sort(input1: String, input2: String): Boolean {
         if (input1.length != input2.length) return false
 
         val sorted1 = input1.toList().sorted()
@@ -14,7 +14,7 @@ class CheckPermutation1_2 {
         return true
     }
 
-    fun checkPermutation1_2_2_equals(input1: String, input2: String): Boolean {
+    fun q1_2_checkPermutation_2_equals(input1: String, input2: String): Boolean {
         if (input1.length != input2.length) return false
 
         val sorted1 = input1.toList().sorted()

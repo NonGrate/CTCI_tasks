@@ -1,7 +1,7 @@
-package arrays
+package q1_arrays
 
-class RotateMatrix1_7 {
-    fun rotateMatrix1_7_1_clockwise(input: Array<Array<String>>): Array<Array<String>> {
+class q1_7_RotateMatrix {
+    fun q1_7_rotateMatrix_1_clockwise(input: Array<Array<String>>): Array<Array<String>> {
         println("Rotating:")
         printArray(input)
 
@@ -29,7 +29,7 @@ class RotateMatrix1_7 {
         return result
     }
 
-    fun rotateMatrix1_7_1_counterclockwise(input: Array<Array<String>>): Array<Array<String>> {
+    fun q1_7_rotateMatrix_2_counterclockwise(input: Array<Array<String>>): Array<Array<String>> {
         println("Rotating:")
         printArray(input)
 

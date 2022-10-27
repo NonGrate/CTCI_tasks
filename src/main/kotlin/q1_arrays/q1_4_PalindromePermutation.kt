@@ -1,7 +1,7 @@
-package arrays
+package q1_arrays
 
-class PalindromePermutation1_4 {
-    fun palindromePermutation1_4_1_lazy(input: String): Boolean {
+class q1_4_PalindromePermutation {
+    fun q1_4_palindromePermutation_1_lazy(input: String): Boolean {
         val sorted = input.replace(" ", "").toLowerCase().toList().sorted()
 
         println(sorted)
@@ -24,7 +24,7 @@ class PalindromePermutation1_4 {
         return singleChars < 2
     }
 
-    fun palindromePermutation1_4_2_hashmap(input: String): Boolean {
+    fun q1_4_palindromePermutation_2_hashmap(input: String): Boolean {
         val hashmap = mutableMapOf<Char, Int>()
 
         input.forEach {
